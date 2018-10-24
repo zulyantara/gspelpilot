@@ -40,10 +40,10 @@
                 <td><b><?php echo strtoupper($row_cetak->no_mykad); ?></b></td>
             </tr>
             <tr>
-                <td><?php echo strtoupper($row_cetak->alamat_permohonan_butir_peribadi); ?></td>
+                <td><?php echo strtoupper($row_cetak->alamat); ?></td>
             </tr>
             <tr>
-                <td><?php echo $data2['poskod_3']." ".$data2['bandar_3'].", ".$data2['negeri_3']; ?></td>
+                <td><?php echo $row_cetak->poskod_3." ".$row_cetak->bandar_3.", ".$row_cetak->negeri_3; ?></td>
             </tr>
             <tr>
                 <td><?php echo strtoupper($row_cetak->nama_negara); ?></td>
@@ -107,7 +107,7 @@
                 <td></td>
 				<td>TEMPAT</td>
                 <td>:</td>
-                <td><?php echo strtoupper("GIATMARA ".$row_cetak->nama_giatmara."<br>".$row_cetak->alamat_gtt); ?></td>
+                <td><?php echo strtoupper("GIATMARA ".$row_cetak->nama_giatmara."<br>".$row_cetak->alamat_giatmara); ?></td>
             </tr>
             <tr>
                 <td></td>

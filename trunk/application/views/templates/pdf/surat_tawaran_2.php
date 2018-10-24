@@ -82,12 +82,12 @@
                         <tr>
                             <td width="45%">No telefon</td>
                             <td width="5%">:</td>
-                            <td width="50%"><?php echo $row_cetak->no_telefon; ?></td>
+                            <td width="50%"><?php echo $row_cetak->no_hp; ?></td>
                         </tr>
                         <tr>
                             <td width="45%">Alamat Tetap</td>
                             <td width="5%">:</td>
-                            <td width="50%"><?php echo $row_cetak->alamat_permohonan_butir_peribadi.", ".$data2['poskod_3']." ".$data2['bandar_3']." ".$data2['negeri_3']; ?></td>
+                            <td width="50%"><?php echo $row_cetak->alamat_permohonan_butir_peribadi.", ".$row_cetak->poskod_3." ".$row_cetak->bandar_3." ".$row_cetak->negeri_3; ?></td>
                         </tr>
                         <tr>
                             <td width="45%">Jantina</td>
