@@ -2259,7 +2259,7 @@ function cetak_surat_tawaran_kursus($id)
         // echo $last_nomor_surat_tawaran->nomor_surat_tawaran;exit;
         $running_number = str_pad($last_nomor_surat_tawaran->nomor_surat_tawaran+1,5,0, STR_PAD_LEFT);
         // echo $running_number;exit;
-        $data1["nomor_surat"] = $running_number;
+        $data_1["nomor_surat"] = $running_number;
 
         $data_1["url_img"] = FCPATH."assets/images/giatmara03.png";
         $data_1["tgl_cetak"] = date("d-m-Y");
@@ -2352,8 +2352,8 @@ function cetak_surat_tawaran_kursus($id)
         // Dari Link
         } else {
             // $updateData = $this->lpp04->update_temuduga_cetak($this->uri->segment(4));
-//mmn add to print surat tawaran
-$updateData = $this->lpp04->update_temuduga_cetak($this->uri->segment(4));
+            //mmn add to print surat tawaran
+            $updateData = $this->lpp04->update_temuduga_cetak($this->uri->segment(4));
 
             $pdf = new Pdf('P', 'mm', 'A4', true, 'UTF-8', false);
             $pdf->SetTitle('Surat-Tawaran');

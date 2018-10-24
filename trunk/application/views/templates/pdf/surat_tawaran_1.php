@@ -20,7 +20,7 @@
                         <tr>
                             <td width="100">Rujukan Kami</td>
                             <td width="10">:</td>
-			    <td><b>GM400/12/<?php echo date("Y");?>/TWR/<?php echo $nomor_surat;?></b></td>
+                            <td><b>GM400/12/<?php echo date("Y");?>/TWR/<?php echo $nomor_surat;?></b></td>
                         </tr>
                         <tr>
                             <td>Tarikh</td>
