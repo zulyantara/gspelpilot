@@ -1,0 +1,1 @@
+ALTER TABLE `permohonan_kursus` ADD `negeri` INT NULL AFTER `kursus3`, ADD `giatmara` INT NULL AFTER `negeri`;

@@ -1,0 +1,2 @@
+ALTER TABLE `ref_kategori_penjaga`
+CHANGE `id` `id` int(10) NOT NULL AUTO_INCREMENT PRIMARY KEY FIRST;
